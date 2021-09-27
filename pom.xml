@@ -2,9 +2,9 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.github.fsm</groupId>
-  <artifactId>fsm</artifactId>
-  <version>0.0.2-1</version>
+    <groupId>org.clojars.vijaysy</groupId>
+    <artifactId>easy-fsm</artifactId>
+    <version>1.0.0</version>
   <packaging>jar</packaging>
 
     <licenses>
@@ -17,10 +17,10 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:https://github.com/koushikr/easy-fsm.git</connection>
-        <developerConnection>scm:git:https://github.com/koushikr/easy-fsm.git</developerConnection>
+        <connection>scm:git:https://github.com/vijaysy/easy-fsm.git</connection>
+        <developerConnection>scm:git:https://github.com/vijaysy/easy-fsm.git</developerConnection>
         <tag>HEAD</tag>
-        <url>https://github.com/koushikr/easy-fsm.git</url>
+        <url>https://github.com/vijaysy/easy-fsm.git</url>
     </scm>
 
     <developers>
@@ -63,7 +63,7 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.16</version>
+      <version>1.18.20</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
